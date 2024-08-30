@@ -15,14 +15,14 @@ Para esta entrevista optamos por seguir um modelo de entrevista aberta, onde ter
 
 ### Roteiro
 
-- Você.... ?
-- Como funcionava.... ?
-- Você já usou alguma aplicação.... 
-- Teve algum problema.... ?
+- Você costumava usar quantas vzs o app num mês e com qua finalidade ?
+- Como funcionava esse app ?
+- Você já usou algum app por conta de uma funcionalidade que outro spp nao tinha?, se sim, qual? 
+- Teve algum problema nesse app?
 - O que você acha de uma aplicação..... ?
-- Para você qual seria o sistema ideal.... ?
-- Você gostaria de poder se cadastrar..... 
-- você gostaria que as informações... 
+- Para você qual seria o o app ideal?
+- Você gostaria de poder se cadastrar para receber novidade no desenvolvimento de um app que englobe tudo que há de mias importnte para você? 
+- você gostaria que as informações chegassem até por meio de onde?
 
 
 ## Entrevistas 
@@ -35,25 +35,44 @@ Para esta entrevista optamos por seguir um modelo de entrevista aberta, onde ter
 
 |Nome | Papel |
 -----|------|
-|xxxx Pedro| Entrevistador|
-|xxxx xxxx| Entrevistado|
+|Lukas Souza| Entrevistador|
+|| Entrevistado|
 
 <br>
 <br>
 
 |Data|Horário de inicio|Horário de fim |Descrição
 ----|-----|-----|---------|
-|03/09/20 | 12:11| 12:38 | Entrevista realizada via hangouts.|
+|30/08/24 | 12:11| 12:38 | Entrevista realizada presencialmente.|
 
 <br>
 <br>
  
 |Nome do participante|Diálogo durante a apresentação dos projetos|
 |----|-------------|
-|XXX XXXX:|Você... |
-|XXX XXXX:|Sim.... |
-|XXX XXXX:|Como... |
-|XXXX XXXX:|Já...  |
+|Lukas:|- Você costumava usar quantas vzs o app num mês e com qua finalidade ? |
+|Jonh:| |
+
+|Lukas:|- Como funcionava esse app ? |
+|Jonh:| |
+
+|Lukas:|- Você já usou algum app por conta de uma funcionalidade que outro spp nao tinha?, se sim, qual? |
+|Jonh:| |
+
+|Lukas:|- Teve algum problema nesse app? |
+|Jonh:| |
+
+|Lukas:|- O que você acha de uma aplicação..... ? |
+|Jonh:| |
+
+|Lukas:|- Para você qual seria o o app ideal? |
+|Jonh:| |
+
+|Lukas:|- Você gostaria de poder se cadastrar para receber novidade no desenvolvimento de um app que englobe tudo que há de mias importnte para você? |
+|Jonh:| |
+
+|Lukas:|- você gostaria que as informações chegassem até por meio de onde? |
+|Jonh:| |
 
 <br>
  

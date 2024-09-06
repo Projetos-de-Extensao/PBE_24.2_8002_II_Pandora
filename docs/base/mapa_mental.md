@@ -24,7 +24,7 @@ Foi levantado um ponto importante sobre o app e, assim, foi produzido o mapa men
 ![Mapa Mental Entrevista]![Mapa Mental](https://github.com/user-attachments/assets/bd488e96-da49-4d23-aa38-85922f626e45)
 
 
-(https://miro.com/app/board/uXjVKkJZqwo=/)
+Link Miro: (https://miro.com/app/board/uXjVKkJZqwo=/)
  
  
 ### Mapa mental 2

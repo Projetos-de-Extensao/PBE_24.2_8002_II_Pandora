@@ -58,7 +58,7 @@ git clone https://github.com/Projetos-de-Extensao/PBE_24.2_8002_II_Pandora
 
  ```python -m venv venv```
  
-``` No Windows: venv\Scripts\activate```<br>
+```No Windows: venv\Scripts\activate```<br>
  ```No macOS e Linux: source venv/bin/activate```
 
 4. **Instalar Dependências**

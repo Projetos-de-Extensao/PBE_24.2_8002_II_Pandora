@@ -29,14 +29,14 @@ Para esta entrevista optamos por seguir um modelo de entrevista aberta, onde ter
 
 ### Versão 1.0
 
-### **Entrevista 1**
+### Entrevista 1
 
 <br>
 
 |Nome | Papel |
------|------|
+-----|------| 
 |Lukas Souza| Entrevistador|
-|| Entrevistado|
+|Jonh Edson| Entrevistado|
 
 <br>
 <br>
@@ -51,61 +51,76 @@ Para esta entrevista optamos por seguir um modelo de entrevista aberta, onde ter
 |Nome do participante|Diálogo durante a apresentação dos projetos|
 |----|-------------|
 |Lukas:|- Você costumava usar quantas vzs o app num mês e com qua finalidade ? |
-|Jonh:| |
+|Jonh:|- Todos os dias - um dia de descanso. |
 
 |Lukas:|- Como funcionava esse app ? |
-|Jonh:| |
+|Jonh:| - Funcionava recebendo informações do relógio para as atividades de natação, corrida e ciclismo.|
 
 |Lukas:|- Você já usou algum app por conta de uma funcionalidade que outro spp nao tinha?, se sim, qual? |
-|Jonh:| |
+|Jonh:|- O App mais completo é do fabricante do relógio mas os recursos de redes sociais são limitados, fazendo parte de uma assessoria é interessante a visualização de todos os membros como forma de motivação.|
 
 |Lukas:|- Teve algum problema nesse app? |
-|Jonh:| |
+|Jonh:|- Em geral o problema desses apps são em relação as informações do gps.|
 
 |Lukas:|- O que você acha de uma aplicação..... ? |
-|Jonh:| |
+|Jonh:|- O foco de uma aplicação para um grupo específico ou esporte específico deveria ser estreitar as relações com os membros. |
 
 |Lukas:|- Para você qual seria o o app ideal? |
-|Jonh:| |
+|Jonh:|- Mesma resposta acima |
 
 |Lukas:|- Você gostaria de poder se cadastrar para receber novidade no desenvolvimento de um app que englobe tudo que há de mias importnte para você? |
-|Jonh:| |
+|Jonh:|- Sim |
 
 |Lukas:|- você gostaria que as informações chegassem até por meio de onde? |
-|Jonh:| |
+|Jonh:|-Email |
 
 <br>
  
 ### Requisitos elicitados
+
+<p align = "justify">
+Através da aplicação da entrevista, foi possível elicitar alguns requisitos importantes para o projeto:
+</p>
  
 |ID|Descrição|
 |----|-------------|
-|REQ01|O ...|
-|REQ02|O ...|
-|REQ03|O ...|
-|REQ04|O ...|
-|REQ05|O ...|
-|REQ06|O ...|
-|REQ07|O ...|
-|REQ08|O ...|
-|REQ09|O ...|
-|REQ10|O ...|
+|REQ01|Frequência e finalidade de uso|
+    Requisito: O aplicativo deve ser usado diariamente, com exceção de um dia de descanso, para monitorar atividades físicas, como natação, corrida e ciclismo.
+    Finalidade: Monitoramento de atividades físicas com informações recebidas de dispositivos como relógios.
+
+|REQ02|Integração com dispositivos|
+    Requisito: O aplicativo deve integrar-se com dispositivos de medição de desempenho, como relógios inteligentes, para fornecer dados das atividades físicas realizadas.
+
+|REQ03|Funcionalidade diferenciada|
+    Requisito: O aplicativo deve incluir uma funcionalidade de rede social, que permita a visualização de atividades de outros membros, especialmente quando esses usuários fazem parte de uma assessoria ou grupo esportivo, como forma de motivação.
+
+|REQ04|Problemas enfrentados em outros aplicativos|
+    Requisito: O aplicativo deve garantir precisão nas informações de GPS, uma vez que o usuário relatou problemas comuns relacionados à imprecisão de dados de geolocalização.
+
+|REQ05|Objetivo principal do app|
+    Requisito: O aplicativo deve ter como foco estreitar relações entre os membros de um grupo específico ou de um esporte específico, facilitando a interação e o acompanhamento das atividades.
+
+|REQ06|Comunicação e novidades|
+    Requisito: O aplicativo deve permitir que o usuário se cadastre para receber atualizações sobre o desenvolvimento e melhorias do app.
+    Forma de envio: As informações e novidades devem ser enviadas por email.
 
 
 ## Conclusão
-<p align = "justify">
-Através da aplicação da técnica, foi possível elicitar alguns requisitos importantes para o projeto.
-</p>
- 
-## Referências
 
->
-> 
+### A entrevista com John revela uma necessidade clara para um aplicativo de monitoramento de atividades físicas que vá além das funcionalidades básicas. O usuário procura uma solução que não só registre dados de natação, corrida e ciclismo com precisão, mas que também integre aspectos sociais e motivacionais, permitindo a interação entre membros de um grupo ou assessoria esportiva.
+
+### A conclusão é que o aplicativo ideal deve:
+
+### Integrar-se eficientemente com dispositivos de medição de desempenho, como relógios inteligentes.
+### Oferecer funcionalidades de rede social para visualização e interação entre usuários, promovendo motivação e apoio mútuo.
+### Garantir precisão nas informações de GPS para uma melhor experiência de uso.
+### Manter os usuários informados sobre atualizações e novidades do aplicativo via email.
+### Esses elementos são essenciais para atender às necessidades do usuário e proporcionar uma experiência mais completa e envolvente.
+ 
 
 ## Autor(es)
 
 | Data | Versão | Descrição | Autor(es) |
-| -- | -- | -- | -- |
-| DD/MM/YYYY | 1.0 | Criação do documento | xxx XXXX |
-| DD/MM/YYYY | 2.0 | Adição da entrevista 1 | XXX XXXX | 
-| DD/MM/YYYY | 2.1 | Adição dos requisitos elicitados e conclusão | XXXX XXXXX | 
+| 30/08/2024 | 1.0 | Criação do documento | Autor: Lukas Souza |
+| 06/09/2024 | 2.0 | Adição da entrevista  | Autor: Lukas Souza |
+| 06/09/2024 | 2.1 | Adição dos requisitos elicitados e conclusão | Autor: Lukas Souza | 

@@ -82,27 +82,74 @@ Para esta entrevista optamos por seguir um modelo de entrevista aberta, onde ter
 Através da aplicação da entrevista, foi possível elicitar alguns requisitos importantes para o projeto:
 </p>
  
-|ID|Descrição|
-|----|-------------|
-|REQ01|Frequência e finalidade de uso|
-    Requisito: O aplicativo deve ser usado diariamente, com exceção de um dia de descanso, para monitorar atividades físicas, como natação, corrida e ciclismo.
-    Finalidade: Monitoramento de atividades físicas com informações recebidas de dispositivos como relógios.
+### Tipagem de requisitos elicitados na Entevista 1
 
-|REQ02|Integração com dispositivos|
-    Requisito: O aplicativo deve integrar-se com dispositivos de medição de desempenho, como relógios inteligentes, para fornecer dados das atividades físicas realizadas.
+# Requisitos do Aplicativo de Monitoramento de Atividades Físicas
 
-|REQ03|Funcionalidade diferenciada|
-    Requisito: O aplicativo deve incluir uma funcionalidade de rede social, que permita a visualização de atividades de outros membros, especialmente quando esses usuários fazem parte de uma assessoria ou grupo esportivo, como forma de motivação.
+Este documento descreve os requisitos para o desenvolvimento de um aplicativo de monitoramento de atividades físicas, com base nas entrevistas com usuários. Os requisitos estão classificados em funcionais e não funcionais, e divididos em categorias normais, esperadas e excitantes.
 
-|REQ04|Problemas enfrentados em outros aplicativos|
-    Requisito: O aplicativo deve garantir precisão nas informações de GPS, uma vez que o usuário relatou problemas comuns relacionados à imprecisão de dados de geolocalização.
+## Requisitos Funcionais
 
-|REQ05|Objetivo principal do app|
-    Requisito: O aplicativo deve ter como foco estreitar relações entre os membros de um grupo específico ou de um esporte específico, facilitando a interação e o acompanhamento das atividades.
+### Requisitos Normais
+1. **Integração com Dispositivos**
+   - O aplicativo deve integrar-se com dispositivos de medição de desempenho, como relógios inteligentes, para registrar e exibir dados de natação, corrida e ciclismo.
+   - **Objetivo**: Garantir a coleta e processamento preciso dos dados das atividades físicas realizadas pelos usuários.
 
-|REQ06|Comunicação e novidades|
-    Requisito: O aplicativo deve permitir que o usuário se cadastre para receber atualizações sobre o desenvolvimento e melhorias do app.
-    Forma de envio: As informações e novidades devem ser enviadas por email.
+2. **Precisão no GPS**
+   - O aplicativo deve fornecer informações de GPS precisas para rastreamento das atividades, incluindo a capacidade de registrar localização e percurso com precisão.
+   - **Objetivo**: Melhorar a exatidão dos dados de localização e percurso.
+
+### Requisitos Esperados
+1. **Funcionalidades de Rede Social**
+   - O aplicativo deve permitir que os usuários visualizem e interajam com as atividades de outros membros de um grupo ou assessoria esportiva através de comentários ou reações.
+   - **Objetivo**: Promover a interação social e a motivação entre os usuários.
+
+2. **Atualizações e Novidades por Email**
+   - O usuário deve poder se cadastrar para receber atualizações e novidades sobre o desenvolvimento do aplicativo por email.
+   - **Objetivo**: Manter os usuários informados sobre melhorias e novas funcionalidades do app.
+
+### Requisitos Excitantes
+1. **Estreitamento de Relações entre Membros**
+   - O aplicativo deve incluir recursos para estreitar as relações entre membros de um grupo específico ou esporte, como fóruns de discussão, desafios de grupo e competições amistosas.
+   - **Objetivo**: Fomentar uma comunidade engajada e conectada, criando um ambiente que apoie e motive os usuários.
+
+2. **Personalização Avançada**
+   - O aplicativo pode oferecer opções de personalização avançada, incluindo perfis personalizados, feedback detalhado e recomendações adaptadas às metas individuais dos usuários.
+   - **Objetivo**: Oferecer uma experiência mais rica e adaptada às preferências individuais.
+
+## Requisitos Não Funcionais
+
+### Requisitos Normais
+1. **Desempenho**
+   - O aplicativo deve ter tempos de resposta rápidos e manter um desempenho estável, mesmo ao processar grandes volumes de dados.
+   - **Objetivo**: Garantir eficiência e ausência de atrasos significativos.
+
+2. **Compatibilidade**
+   - O aplicativo deve ser compatível com uma variedade de dispositivos e sistemas operacionais, incluindo diferentes modelos de relógios inteligentes e smartphones.
+   - **Objetivo**: Assegurar a utilização ampla do aplicativo por diferentes usuários.
+
+### Requisitos Esperados
+1. **Segurança e Privacidade**
+   - O aplicativo deve garantir a segurança dos dados dos usuários, incluindo informações pessoais e dados de atividades, com medidas de proteção contra acessos não autorizados.
+   - **Objetivo**: Proteger informações sensíveis e garantir a privacidade dos usuários.
+
+2. **Usabilidade**
+   - O aplicativo deve ter uma interface intuitiva e fácil de usar, com navegação clara e processos simplificados.
+   - **Objetivo**: Proporcionar uma experiência agradável e eficiente, facilitando o uso diário.
+
+### Requisitos Excitantes
+1. **Estética e Design**
+   - O aplicativo pode ter um design visualmente atraente e moderno, com opções de personalização estética ajustáveis pelos usuários.
+   - **Objetivo**: Melhorar a experiência geral e aumentar a satisfação com o design do aplicativo.
+
+2. **Acessibilidade**
+   - O aplicativo pode incluir funcionalidades de acessibilidade, como suporte a leitores de tela e opções de contraste para usuários com deficiências visuais.
+   - **Objetivo**: Tornar o aplicativo acessível a um público mais amplo, incluindo pessoas com necessidades especiais.
+
+---
+
+Esses requisitos visam garantir que o aplicativo não só atenda às necessidades básicas dos usuários, mas também ofereça uma experiência diferenciada e envolvente. Para mais detalhes ou contribuições, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
 
 
 ## Conclusão

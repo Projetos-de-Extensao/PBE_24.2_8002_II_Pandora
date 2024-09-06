@@ -56,15 +56,15 @@ git clone https://github.com/Projetos-de-Extensao/PBE_24.2_8002_II_Pandora
 3. **Criar e Ativar um Ambiente Virtual**
 É recomendável usar um ambiente virtual para gerenciar dependências. Crie e ative o ambiente virtual com os seguintes comandos:
 
- ```python -m venv venv
+ ```python -m venv venv```
  
- No Windows: venv\Scripts\activate
- No macOS e Linux: source venv/bin/activate
+``` No Windows: venv\Scripts\activate```
+ ```No macOS e Linux: source venv/bin/activate```
 
 4. **Instalar Dependências**
 Com o ambiente virtual ativado, instale as dependências do projeto listadas no arquivo requirements.txt:
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 5. **Cinfugurar o Banco de Dados**
 Certifique-se de que o banco de dados escolhido está instalado e configurado. Se estiver usando SQLite (padrão do Django), isso não é necessário. Para outros bancos de dados (PostgreSQL, MySQL, etc.), configure as credenciais no arquivo settings.py do Django.
@@ -72,12 +72,12 @@ Certifique-se de que o banco de dados escolhido está instalado e configurado. S
 6. **Aplicar Migrações**
 Aplique as migrações do banco de dados para criar as tabelas necessárias:
 
-python manage.py migrate
+```python manage.py migrate```
 
 7. **Executar o Servidor de Desenvolvimento**
 Inicie o servidor de desenvolvimento do Django:
 
-python manage.py runserver
+```python manage.py runserver```
 
 ## Uso 
 Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.

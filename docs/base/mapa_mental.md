@@ -21,16 +21,16 @@ Foi levantado um ponto importante sobre o app e, assim, foi produzido o mapa men
  
 ### Mapa mental 1
  
-![Mapa Mental Entrevista]![Mapa Mental](https://miro.com/app/board/uXjVKkJZqwo=/?share_link_id=780567068501)
+![Mapa Mental (3)](https://github.com/user-attachments/assets/dfb9bada-7244-4a99-9f36-7104151c5799)
 
-
-Link Miro: (https://miro.com/app/board/uXjVKkJZqwo=/)
+Link Miro: (https://miro.com/app/board/uXjVKkJZqwo=/?share_link_id=904377463812)
  
  
 ### Mapa mental 2
  
-![Mapa Mental Brainstorm]![Mapa Mental](https://miro.com/app/board/uXjVKhnqY9k=/?share_link_id=382972621052)
-Link Miro: (https://miro.com/app/board/uXjVKhnqY9k=/)
+![Mapa Mental Brainstorm](https://github.com/user-attachments/assets/d94f55e3-598a-47b9-a5db-069ebdc026c1)
+
+Link Miro: (https://miro.com/app/board/uXjVKhnqY9k=/?share_link_id=494473006455)
  
 ## Conclusão
  

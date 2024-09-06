@@ -28,7 +28,7 @@ Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento
 **Linguagens**: Python  <br>
 **Tecnologias**: Django<br>
 
-# Configuração e Execução do Projeto Django
+# Configuração e Execução do Projeto
 
 ## Requisitos
 

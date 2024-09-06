@@ -66,7 +66,7 @@ Com o ambiente virtual ativado, instale as dependências do projeto listadas no 
 
 ```pip install -r requirements.txt```
 
-5. **Cinfugurar o Banco de Dados**
+5. **Configurar o Banco de Dados**
 Certifique-se de que o banco de dados escolhido está instalado e configurado. Se estiver usando SQLite (padrão do Django), isso não é necessário. Para outros bancos de dados (PostgreSQL, MySQL, etc.), configure as credenciais no arquivo settings.py do Django.
 
 6. **Aplicar Migrações**

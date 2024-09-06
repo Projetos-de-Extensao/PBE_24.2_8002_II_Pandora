@@ -80,7 +80,7 @@ Através da aplicação da entrevista, foi possível elicitar alguns requisitos 
  
 ### Tipagem de requisitos elicitados na Entevista 1
 
-# Requisitos do Aplicativo de Monitoramento de Atividades Físicas
+# Requisitos do Aplicativo
 
 Este documento descreve os requisitos para o desenvolvimento de um aplicativo de monitoramento de atividades físicas, com base nas entrevistas com usuários. Os requisitos estão classificados em funcionais e não funcionais, e divididos em categorias normais, esperadas e excitantes.
 

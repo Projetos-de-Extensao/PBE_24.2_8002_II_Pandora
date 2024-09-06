@@ -56,9 +56,10 @@ git clone https://github.com/Projetos-de-Extensao/PBE_24.2_8002_II_Pandora
 3. **Criar e Ativar um Ambiente Virtual**
 É recomendável usar um ambiente virtual para gerenciar dependências. Crie e ative o ambiente virtual com os seguintes comandos:
 
-### python -m venv venv
-# No Windows: venv\Scripts\activate
-# No macOS e Linux: source venv/bin/activate
+ ```python -m venv venv
+ 
+ No Windows: venv\Scripts\activate
+ No macOS e Linux: source venv/bin/activate
 
 4. **Instalar Dependências**
 Com o ambiente virtual ativado, instale as dependências do projeto listadas no arquivo requirements.txt:

@@ -29,7 +29,8 @@ Link Miro: (https://miro.com/app/board/uXjVKkJZqwo=/)
  
 ### Mapa mental 2
  
-[![Mapa mental Brainstorm](../assets/Mapas_mentais/...png)](assets/Mapas_mentais/....png)
+[![Mapa mental Brainstorm](https://github.com/user-attachments/assets/90457674-8d12-42a8-b90c-9fedfd4e827a)
+Link Miro: (https://miro.com/app/board/uXjVKhnqY9k=/)
  
 ## Conclusão
  

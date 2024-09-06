@@ -6,9 +6,9 @@
 ## Alunos
 |Matrícula | Aluno |
 
-| 202402814028 |  Eduardo Parga |
-| 202402627287  |  Enzo Rafael |
-| 202309057981 | Lukas Souza  |
+| 202402814028 |  Eduardo Parga | <br>
+| 202402627287  |  Enzo Rafael | <br>
+| 202309057981 | Lukas Souza  | <br>
 
 ## Sobre 
 O projeto é um programa inovador de monitoramento de atividades físicas que visa transformar a forma como os usuários gerenciam e otimizam sua saúde e bem-estar. Este sistema vai além do simples rastreamento de exercícios, oferecendo uma experiência enriquecida com uma série de recursos adicionais.

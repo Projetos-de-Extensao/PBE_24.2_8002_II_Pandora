@@ -96,24 +96,25 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 </p>
  
 ### Requisitos elicitados
- 
-|ID|Descrição|
-|----|-------------|
-|BS01| O cliente...|
-|BS02| O cliente...|
-|BS03| O cliente...|
-|BS04| O cliente...|
-|BS05| O cliente...|
-|BS06| O cliente...|
-|BS07| O cliente...|
-|BS08| O cliente...|
-|BS09| O cliente...|
-|BS10| O produto...|
-|BS11| O produto...|
-|BS12| O produto...|
-|BS13| O produto...|
-|BS14| O produto...|
-|BS15| O produto...|
+
+| ID   | Descrição                        |
+|------|----------------------------------|
+| BS01 | O cliente deverá criar um perfil na plataforma. |
+| BS02 | O cliente poderá editar suas informações pessoais. |
+| BS03 | O cliente deverá ter acesso a estatísticas de suas atividades. |
+| BS04 | O cliente poderá se inscrever em torneios disponíveis. |
+| BS05 | O cliente poderá interagir com outros usuários através de comentários. |
+| BS06 | O cliente receberá notificações sobre atualizações do aplicativo. |
+| BS07 | O cliente poderá acessar um histórico de suas atividades. |
+| BS08 | O cliente terá a opção de compartilhar suas conquistas em redes sociais. |
+| BS09 | O cliente poderá acessar um suporte técnico através do aplicativo. |
+| BS10 | O produto deve incluir informações como nome, descrição e preço. |
+| BS11 | O produto poderá ser atualizado conforme disponibilidade. |
+| BS12 | O produto terá avaliações e comentários de outros usuários. |
+| BS13 | O produto poderá ser removido pelo administrador da plataforma. |
+| BS14 | O produto deve ser listado em uma categoria específica. |
+| BS15 | O produto poderá ter promoções e descontos disponíveis. |
+
  
 ## Conclusão
 <p align = "justify">

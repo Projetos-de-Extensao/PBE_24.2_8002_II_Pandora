@@ -10,7 +10,7 @@ O brainstorm é uma técnica de elicitação de requisitos que consiste em reuni
  
 ## Metodologia
 <p align = "justify">
-A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .... e terminou..., onde o XXXX XXXX foi o moderador, direcionando a equipe com questões pré-elaboradas, e transcrevendo as respostas para o documento.
+A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .... e terminou..., onde o Enzo Enzo foi o moderador, direcionando a equipe com questões pré-elaboradas, e transcrevendo as respostas para o documento.
 </p>
  
 ## Brainstorm
@@ -22,59 +22,59 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 ### 1. Qual o objetivo principal da aplicação?
 
 <p align="justify">
-<b>XXXX</b> - Deve ser uma plataforma onde qualquer pessoa possa registrar e monitorar suas atividades físicas e participar de torneios esportivos.
+<b>Enzo</b> - Deve ser uma plataforma onde qualquer pessoa possa registrar e monitorar suas atividades físicas e participar de torneios esportivos.
 </p>
 
-<b>ZZZ</b> - A plataforma deve fornecer dados precisos e em tempo real sobre desempenho em atividades como natação, corrida e ciclismo.
+ <b>Eduardo</b> - A plataforma deve fornecer dados precisos e em tempo real sobre desempenho em atividades como natação, corrida e ciclismo.
 
-<b>YYYY</b> - O objetivo da aplicação é garantir a coleta e o processamento preciso dos dados das atividades físicas realizadas pelos usuários.
+<b>Gabriel</b> - O objetivo da aplicação é garantir a coleta e o processamento preciso dos dados das atividades físicas realizadas pelos usuários.
 
-<b>WWWW</b> - O principal objetivo da aplicação é melhorar a interação social entre usuários e fornecer feedback sobre seu desempenho.
+<b>Lukas</b> - O principal objetivo da aplicação é melhorar a interação social entre usuários e fornecer feedback sobre seu desempenho.
 
-<b>KKKK</b> - A plataforma deve gerenciar as informações dos usuários e permitir a interação com outras pessoas.
+<b>Enzo</b> - A plataforma deve gerenciar as informações dos usuários e permitir a interação com outras pessoas.
 
 ---
 
 ### 2. Como será o processo para cadastrar um novo cliente/torneio?
 
 <p align="justify">
-<b>XXXX</b> - O moderador deverá fazer login e acessar a seção de gerenciamento de usuários.
+<b>Enzo</b> - O moderador deverá fazer login e acessar a seção de gerenciamento de usuários.
 </p>
 
-<b>YYYY</b> - O cliente deverá fornecer informações básicas como nome, email e dados de atividade física.
+<b>Eduardo</b> - O cliente deverá fornecer informações básicas como nome, email e dados de atividade física.
 
-<b>WWWW</b> - Com o usuário logado, ele deverá preencher um formulário de cadastro com os dados solicitados.
+<b>Gabriel</b> - Com o usuário logado, ele deverá preencher um formulário de cadastro com os dados solicitados.
 
-<b>ZZZZ</b> - O cliente poderá editar suas informações antes de finalizar o cadastro.
+<b>Lukas</b> - O cliente poderá editar suas informações antes de finalizar o cadastro.
 
-<b>KKK</b> - O cliente deverá confirmar os dados e concluir o cadastro para que suas informações fiquem disponíveis.
+<b>Lukas</b> - O cliente deverá confirmar os dados e concluir o cadastro para que suas informações fiquem disponíveis.
 
 ---
 
 ### 3. Como será a forma de adicionar produtos?
 
 <p align="justify">
-<b>XXXX</b> - O cliente ao cadastrar um novo produto, como um ingresso para um evento esportivo, poderá adicionar detalhes relevantes.
+<b>Enzo</b> - O cliente ao cadastrar um novo produto, como um ingresso para um evento esportivo, poderá adicionar detalhes relevantes.
 </p>
 
 <p align="justify">
-<b>YYYYY</b> - O produto tem que incluir informações como nome, descrição, preço e quantidade disponível.
+<b>Eduardo</b> - O produto tem que incluir informações como nome, descrição, preço e quantidade disponível.
 </p>
 
-<b>ZZZZ</b> - O produto será listado na plataforma para visualização pelos usuários.
+<b>Lukas</b> - O produto será listado na plataforma para visualização pelos usuários.
 
-<b>XXXX</b> - O cliente pode editar ou remover produtos conforme necessário.
+<b>Enzo</b> - O cliente pode editar ou remover produtos conforme necessário.
 
 ---
 
 ### 4. Outras perguntas pertinentes ao contexto
 
 <p align="justify">
-<b>XXXX</b> - Com a localização integrada, o aplicativo permitirá o rastreamento preciso das atividades físicas dos usuários.
+<b>Enzo</b> - Com a localização integrada, o aplicativo permitirá o rastreamento preciso das atividades físicas dos usuários.
  
-<b>YYYY</b> - O cliente poderá interagir com outros usuários através de comentários e reações às atividades postadas.
+<b>Eduardo</b> - O cliente poderá interagir com outros usuários através de comentários e reações às atividades postadas.
  
-<b>ZZZ</b> - O cliente poderá receber atualizações e novidades sobre o aplicativo por email.
+ <b>Eduardo</b> - O cliente poderá receber atualizações e novidades sobre o aplicativo por email.
 </p>
 
 ---
@@ -82,17 +82,17 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 ### 5. "Outras perguntas pertinentes ao contexto", Como seria a forma de o cliente adicionar os produtos?
 
 <p align="justify">
-<b>XXX</b> - O cliente poderá adicionar produtos acessando a seção de administração e preenchendo as informações necessárias para cada item.
+<b>Enzo</b> - O cliente poderá adicionar produtos acessando a seção de administração e preenchendo as informações necessárias para cada item.
 </p>
 
 ### 6. Quais informações seriam interessantes para o cliente?
 
 <p align="justify">
-   <b>XXX</b> - Informações sobre o desempenho em atividades, incluindo estatísticas e feedback.
+ <b>Enzo</b> - Informações sobre o desempenho em atividades, incluindo estatísticas e feedback.
    
-   <b>ZZZZ</b> - O cliente usuário poderá acessar informações sobre suas atividades, como distância percorrida e tempo gasto.
+ <b>Gabriel</b> - O cliente usuário poderá acessar informações sobre suas atividades, como distância percorrida e tempo gasto.
 
-   <b>WWWWs</b> - O usuário poderá ver scouts de partidas do torneio, ver as regras dos torneios, locais e data das partidas.
+ <b>Eduardo</b> - O usuário poderá ver scouts de partidas do torneio, ver as regras dos torneios, locais e data das partidas.
 </p>
  
 ### Requisitos elicitados

@@ -99,21 +99,21 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 
 | ID   | Descrição                                                            |
 |------|----------------------------------------------------------------------|
-| BS01 | O cliente deverá criar um perfil na plataforma.                     |
-| BS02 | O cliente poderá editar suas informações pessoais.                  |
-| BS03 | O cliente deverá ter acesso a estatísticas de suas atividades.      |
-| BS04 | O cliente poderá se inscrever em torneios disponíveis.              |
-| BS05 | O cliente poderá interagir com outros usuários através de comentários.|
-| BS06 | O cliente receberá notificações sobre atualizações do aplicativo.    |
-| BS07 | O cliente poderá acessar um histórico de suas atividades.            |
-| BS08 | O cliente terá a opção de compartilhar suas conquistas em redes sociais. |
-| BS09 | O cliente poderá acessar um suporte técnico através do aplicativo.   |
-| BS10 | O produto deve incluir informações como nome e descrição.           |
-| BS11 | O produto poderá ser atualizado conforme disponibilidade.            |
-| BS12 | O produto terá avaliações e comentários de outros usuários.          |
-| BS13 | O produto poderá ser removido pelo administrador da plataforma.      |
-| BS14 | O produto deve ser listado em uma categoria específica.              |
-| BS15 | O produto poderá ter promoções e descontos disponíveis.             |
+| BS01 | O usuário deverá criar um perfil na plataforma.                     |
+| BS02 | O usuário poderá editar suas informações pessoais.                  |
+| BS03 | O usuário deverá ter acesso a estatísticas de suas atividades.      |
+| BS04 | O usuário poderá interagir com outros usuários através de comentários.|
+| BS05 | O usuário receberá notificações sobre atualizações do aplicativo.    |
+| BS06 | O usuário poderá acessar um histórico de suas atividades.            |
+| BS07 | O usuário terá a opção de compartilhar suas conquistas em redes sociais. |
+| BS08 | O usuário poderá acessar um suporte técnico através do aplicativo.   |
+| BS09 | O sistema deve incluir informações sobre cada atividade, como tipo e duração. |
+| BS10 | O sistema poderá ser atualizado conforme novas funcionalidades ou dados coletados. |
+| BS11 | As atividades poderão ter avaliações e comentários de outros usuários. |
+| BS12 | O administrador da plataforma poderá gerenciar as atividades.       |
+| BS13 | As atividades deverão ser listadas em categorias específicas (ex: corrida, natação, etc.). |
+| BS14 | O sistema poderá ter notificações sobre atualizações e novas funcionalidades. |
+
 
 
  

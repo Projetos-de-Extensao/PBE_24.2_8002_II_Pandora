@@ -108,7 +108,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 | BS07 | O cliente poderá acessar um histórico de suas atividades. |
 | BS08 | O cliente terá a opção de compartilhar suas conquistas em redes sociais. |
 | BS09 | O cliente poderá acessar um suporte técnico através do aplicativo. |
-| BS10 | O produto deve incluir informações como nome, descrição e preço. |
+| BS10 | O produto deve incluir informações como nome e descrição. |
 | BS11 | O produto poderá ser atualizado conforme disponibilidade. |
 | BS12 | O produto terá avaliações e comentários de outros usuários. |
 | BS13 | O produto poderá ser removido pelo administrador da plataforma. |

@@ -130,6 +130,7 @@ Através da aplicação da técnica, foi possível elicitar alguns dos primeiros
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
 | 27/09/2024 | 1.0 | Criação do documento | Enzo Rafael |
+| 27/09/2024 | 1.1 | Criação do documento | Eduardo Parga |
 
 ![image](https://github.com/user-attachments/assets/31c24ef9-92a3-4756-ad92-a2fc57590743)
 

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Requisitos Funcionais - My Docs</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">My Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Welcome to MkDocs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../doc_template/" class="nav-link">Titulo do documento</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Base</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../5w2h/" class="dropdown-item">5W2H</a>
+</li>
+                                    
+<li>
+    <a href="../Brainstorm/" class="dropdown-item">Brainstorm</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Requisitos Funcionais</a>
+</li>
+                                    
+<li>
+    <a href="../documento_de_visao/" class="dropdown-item">Documento de Visão: Aplicativo de Registro de Atividades Físicas</a>
+</li>
+                                    
+<li>
+    <a href="../entrevista/" class="dropdown-item">Entrevista</a>
+</li>
+                                    
+<li>
+    <a href="../mapa_mental/" class="dropdown-item">Mapas Mentais</a>
+</li>
+                                    
+<li>
+    <a href="../metodologia/" class="dropdown-item">Metodologia</a>
+</li>
+                                    
+<li>
+    <a href="../pesquisa/" class="dropdown-item">Avaliação dos Principais Softwares de Monitoramento de Atividades Físicas</a>
+</li>
+                                    
+<li>
+    <a href="../prototipo_alta_fidelidade/" class="dropdown-item">Protótipo</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Interacao</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../interacao/interacao1/" class="dropdown-item">Interação 1</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Modelagem</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../modelagem/" class="dropdown-item">Modelagem</a>
+</li>
+                                    
+<li>
+    <a href="../../modelagem/das/" class="dropdown-item">Documento de Arquitetura</a>
+</li>
+                                    
+<li>
+    <a href="../../modelagem/diagrama_de_classes/" class="dropdown-item">Diagrama de Classes</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../Brainstorm/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../documento_de_visao/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#requisitos-funcionais" class="nav-link">Requisitos Funcionais</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#integracao-com-dispositivos" class="nav-link">Integração com Dispositivos</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#precisao-no-gps" class="nav-link">Precisão no GPS</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#requisitos-esperados" class="nav-link">Requisitos Esperados</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#funcionalidades-de-rede-social" class="nav-link">Funcionalidades de Rede Social</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#atualizacoes-e-novidades-por-email" class="nav-link">Atualizações e Novidades por Email</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#requisitos-excitantes" class="nav-link">Requisitos Excitantes</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#estreitamento-de-relacoes-entre-membros" class="nav-link">Estreitamento de Relações entre Membros</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#personalizacao-avancada" class="nav-link">Personalização Avançada</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#requisitos-nao-funcionais" class="nav-link">Requisitos Não Funcionais</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#desempenho" class="nav-link">Desempenho</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#seguranca-e-privacidade" class="nav-link">Segurança e Privacidade</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="requisitos-funcionais">Requisitos Funcionais</h1>
+<h2 id="integracao-com-dispositivos">Integração com Dispositivos</h2>
+<ol>
+<li><strong>Objetivo</strong>: Garantir a coleta e processamento preciso dos dados das atividades físicas realizadas pelos usuários.</li>
+<li><strong>Atores</strong>: </li>
+<li>Usuário</li>
+<li>Dispositivos de medição (ex: relógios inteligentes)</li>
+<li><strong>Pré-condições</strong>: </li>
+<li>O dispositivo de medição deve estar emparelhado com o aplicativo.</li>
+<li>O usuário deve ter permitido o acesso aos dados do dispositivo.</li>
+<li><strong>Trigger</strong>: </li>
+<li>O início de uma atividade física (natação, corrida, ciclismo).</li>
+<li><strong>Fluxo Principal</strong>:</li>
+<li>O usuário inicia uma atividade física no aplicativo ou no dispositivo.</li>
+<li>O dispositivo coleta os dados de desempenho (ex: batimentos cardíacos, distância, tempo).</li>
+<li>O aplicativo processa e exibe os dados em tempo real para o usuário.</li>
+<li>Ao fim da atividade, o aplicativo armazena o histórico da sessão.</li>
+<li><strong>Fluxos Alternativos</strong>:</li>
+<li><strong>Fluxo Opcionais</strong>: O usuário pode visualizar uma comparação com atividades anteriores.</li>
+<li><strong>Fluxo Variante</strong>: Diferentes dispositivos podem enviar dados adicionais, como níveis de oxigênio ou sono.</li>
+<li><strong>Fluxo de Exceção</strong>: Se o dispositivo perder a conexão, o aplicativo tenta reconectar ou notifica o usuário para reiniciar a conexão.</li>
+<li><strong>Pós-condições</strong>: </li>
+<li>O histórico de desempenho da atividade é salvo no perfil do usuário.</li>
+<li><strong>Regras</strong>: </li>
+<li>O aplicativo deve verificar a compatibilidade do dispositivo e seu estado de bateria.</li>
+</ol>
+<hr />
+<h2 id="precisao-no-gps">Precisão no GPS</h2>
+<ol>
+<li><strong>Objetivo</strong>: Melhorar a exatidão dos dados de localização e percurso.</li>
+<li><strong>Atores</strong>: </li>
+<li>Usuário</li>
+<li>Sistema de GPS</li>
+<li><strong>Pré-condições</strong>: </li>
+<li>O GPS do dispositivo deve estar ativado e funcional.</li>
+<li><strong>Trigger</strong>: </li>
+<li>O início de uma atividade que requer rastreamento (ex: corrida, ciclismo).</li>
+<li><strong>Fluxo Principal</strong>:</li>
+<li>O usuário inicia o rastreamento da atividade.</li>
+<li>O GPS captura dados de localização e percurso com precisão.</li>
+<li>O aplicativo exibe o trajeto em um mapa em tempo real.</li>
+<li>Ao final da atividade, o percurso é salvo.</li>
+<li><strong>Fluxos Alternativos</strong>:</li>
+<li><strong>Fluxo Variante</strong>: O usuário pode revisar o percurso em diferentes níveis de zoom.</li>
+<li><strong>Fluxo de Exceção</strong>: Caso a precisão do GPS caia, o aplicativo tenta recalibrar ou notifica o usuário.</li>
+<li><strong>Pós-condições</strong>: </li>
+<li>O trajeto completo e preciso é salvo no histórico.</li>
+<li><strong>Regras</strong>: </li>
+<li>O aplicativo deve garantir o mínimo de desvio possível na precisão do GPS, considerando margens de erro aceitáveis.</li>
+</ol>
+<hr />
+<h1 id="requisitos-esperados">Requisitos Esperados</h1>
+<h2 id="funcionalidades-de-rede-social">Funcionalidades de Rede Social</h2>
+<ol>
+<li><strong>Objetivo</strong>: Promover a interação social e a motivação entre os usuários.</li>
+<li><strong>Atores</strong>: </li>
+<li>Usuário</li>
+<li>Outros membros de grupos ou assessorias esportivas</li>
+<li><strong>Pré-condições</strong>: </li>
+<li>O usuário deve estar inscrito em um grupo ou assessoria esportiva.</li>
+<li><strong>Trigger</strong>: </li>
+<li>Um membro do grupo conclui uma atividade ou compartilha uma atualização.</li>
+<li><strong>Fluxo Principal</strong>:</li>
+<li>O usuário visualiza as atividades dos outros membros do grupo.</li>
+<li>O usuário pode reagir ou comentar nas atividades.</li>
+<li>As reações/comentários são salvos e exibidos em tempo real.</li>
+<li><strong>Fluxos Alternativos</strong>:</li>
+<li><strong>Fluxo Opcional</strong>: O usuário pode ativar notificações para ser informado quando outros membros completarem atividades.</li>
+<li><strong>Pós-condições</strong>: </li>
+<li>As interações sociais (comentários/reações) são registradas no perfil do usuário.</li>
+<li><strong>Regras</strong>: </li>
+<li>O aplicativo deve garantir que apenas membros autorizados visualizem e interajam com atividades.</li>
+</ol>
+<hr />
+<h2 id="atualizacoes-e-novidades-por-email">Atualizações e Novidades por Email</h2>
+<ol>
+<li><strong>Objetivo</strong>: Manter os usuários informados sobre melhorias e novas funcionalidades do app.</li>
+<li><strong>Atores</strong>: </li>
+<li>Usuário</li>
+<li>Sistema de envio de email</li>
+<li><strong>Pré-condições</strong>: </li>
+<li>O usuário deve estar inscrito para receber emails.</li>
+<li><strong>Trigger</strong>: </li>
+<li>O aplicativo ou seus desenvolvedores lançam uma atualização ou notícia relevante.</li>
+<li><strong>Fluxo Principal</strong>:</li>
+<li>O usuário opta por receber atualizações por email.</li>
+<li>O sistema envia notificações periódicas de novidades.</li>
+<li>O usuário recebe o email e pode acessar informações adicionais.</li>
+<li><strong>Pós-condições</strong>: </li>
+<li>O usuário está informado sobre as últimas novidades do aplicativo.</li>
+</ol>
+<hr />
+<h1 id="requisitos-excitantes">Requisitos Excitantes</h1>
+<h2 id="estreitamento-de-relacoes-entre-membros">Estreitamento de Relações entre Membros</h2>
+<ol>
+<li><strong>Objetivo</strong>: Fomentar uma comunidade engajada e conectada.</li>
+<li><strong>Atores</strong>: </li>
+<li>Usuário</li>
+<li>Membros de grupos esportivos</li>
+<li><strong>Pré-condições</strong>: </li>
+<li>O usuário deve fazer parte de um grupo.</li>
+<li><strong>Trigger</strong>: </li>
+<li>Criação de fóruns, desafios ou competições amistosas.</li>
+<li><strong>Fluxo Principal</strong>:</li>
+<li>O grupo organiza desafios ou fóruns de discussão.</li>
+<li>O usuário participa, comentando ou competindo.</li>
+<li>O aplicativo registra o progresso do desafio ou fórum.</li>
+<li><strong>Fluxos Alternativos</strong>:</li>
+<li><strong>Fluxo Opcionais</strong>: O usuário pode criar seus próprios desafios dentro de grupos menores.</li>
+<li><strong>Pós-condições</strong>: </li>
+<li>O grupo se fortalece com as interações e desafios realizados.</li>
+</ol>
+<hr />
+<h2 id="personalizacao-avancada">Personalização Avançada</h2>
+<ol>
+<li><strong>Objetivo</strong>: Oferecer uma experiência rica e adaptada às preferências individuais.</li>
+<li><strong>Atores</strong>: </li>
+<li>Usuário</li>
+<li><strong>Pré-condições</strong>: </li>
+<li>O usuário deve configurar suas preferências no aplicativo.</li>
+<li><strong>Trigger</strong>: </li>
+<li>O usuário acessa a área de personalização.</li>
+<li><strong>Fluxo Principal</strong>:</li>
+<li>O usuário ajusta o perfil e as metas no aplicativo.</li>
+<li>O aplicativo oferece recomendações e feedback personalizados.</li>
+<li><strong>Fluxos Alternativos</strong>:</li>
+<li><strong>Fluxo Variante</strong>: As metas podem ser ajustadas dinamicamente com base no desempenho do usuário.</li>
+<li><strong>Pós-condições</strong>: </li>
+<li>As metas e feedbacks são atualizados e adaptados à evolução do usuário.</li>
+</ol>
+<hr />
+<h1 id="requisitos-nao-funcionais">Requisitos Não Funcionais</h1>
+<h2 id="desempenho">Desempenho</h2>
+<ol>
+<li><strong>Objetivo</strong>: Garantir eficiência e ausência de atrasos significativos.</li>
+<li><strong>Atores</strong>: </li>
+<li>Usuário</li>
+<li>Servidor do aplicativo</li>
+<li><strong>Pré-condições</strong>: </li>
+<li>O aplicativo deve ser executado em dispositivos compatíveis.</li>
+<li><strong>Trigger</strong>: </li>
+<li>A utilização de grandes volumes de dados ou funcionalidades complexas.</li>
+<li><strong>Fluxo Principal</strong>:</li>
+<li>O usuário utiliza o aplicativo sem interrupções ou atrasos, mesmo com grandes volumes de dados.</li>
+<li><strong>Pós-condições</strong>: </li>
+<li>O aplicativo mantém um desempenho estável.</li>
+</ol>
+<hr />
+<h2 id="seguranca-e-privacidade">Segurança e Privacidade</h2>
+<ol>
+<li><strong>Objetivo</strong>: Proteger informações sensíveis e garantir a privacidade dos usuários.</li>
+<li><strong>Atores</strong>: </li>
+<li>Usuário</li>
+<li>Sistema de segurança do aplicativo</li>
+<li><strong>Pré-condições</strong>: </li>
+<li>O usuário deve ter um login seguro.</li>
+<li><strong>Trigger</strong>: </li>
+<li>O usuário acessa ou envia dados sensíveis.</li>
+<li><strong>Fluxo Principal</strong>:</li>
+<li>O sistema valida as credenciais do usuário.</li>
+<li>O aplicativo criptografa e protege os dados armazenados.</li>
+<li><strong>Pós-condições</strong>: </li>
+<li>Os dados do usuário estão seguros e protegidos.</li>
+</ol></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

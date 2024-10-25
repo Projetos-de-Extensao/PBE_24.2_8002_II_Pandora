@@ -9,7 +9,7 @@
 | 202402814028 |  Eduardo Parga |<br>
 | 202402627287  |  Enzo Rafael |<br>
 | 202309057981 | Lukas Souza  |<br>
-| XXXXXXXXXXXX | Diogo Motta |<br>
+
 
 
 ## Sobre 

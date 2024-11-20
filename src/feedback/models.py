@@ -1,16 +1,18 @@
 from django.db import models
+from django.utils import timezone
 
-class Department(models.Model):
-    name = models.CharField(max_length=100)
+class PlatformFeedback(models.Model):
+    CATEGORY_TYPES = [
+        ('suggestion', 'Suggestion for Improvement'),
+        ('technical_issue', 'Technical Issue'),
+        ('general_feedback', 'General Feedback'),
+    ]
+    
+    category = models.CharField(max_length=60, choices=CATEGORY_TYPES)
+    submission_date = models.DateTimeField(auto_now_add=True)
+    submission_time = models.TimeField(default=timezone.now)  # Adicionando valor default
+    description = models.TextField()
+    reporter = models.CharField(max_length=100)
 
     def __str__(self):
-        return self.name
-
-class Employee(models.Model):
-    name = models.CharField(max_length=100)
-    email = models.EmailField(default="default@example.com")
-    role = models.CharField(max_length=100)
-    department = models.ForeignKey(Department, on_delete=models.CASCADE)
-
-    def __str__(self):
-        return self.name
+        return f'{self.reporter} - {self.category}'

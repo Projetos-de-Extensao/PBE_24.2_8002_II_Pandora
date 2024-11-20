@@ -1,7 +1,7 @@
 from rest_framework import viewsets
-from .models import Employee
-from .serializers import EmployeeSerializer
+from .models import PlatformFeedback
+from .serializers import PlatformFeedbackSerializer
 
-class EmployeeViewSet(viewsets.ModelViewSet):
-    queryset = Employee.objects.all()
-    serializer_class = EmployeeSerializer
+class PlatformFeedbackViewSet(viewsets.ModelViewSet):
+    queryset = PlatformFeedback.objects.all()
+    serializer_class = PlatformFeedbackSerializer

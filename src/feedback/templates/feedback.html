@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fff;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #006e6d;
+            color: #fff;
+            padding: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        h1, h2 {
+            font-size: 2.5rem;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin-left: 20px;
+            font-size: 1.1rem;
+        }
+        main {
+            padding: 40px 0;
+        }
+        .section {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            margin-bottom: 20px;
+            color: #006e6d;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+        }
+        input, textarea, select {
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        button {
+            background-color: #006e6d;
+            color: #fff;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #004e4d;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        footer p {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Iquirium</h1>
+            <nav>
+                <a href="#feedback-request">Feedback Request</a>
+                <a href="#feedback-analysis">Feedback Analysis</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="feedback-request" class="section request">
+            <h2>Request Feedback</h2>
+            <form>
+                <label for="category">Feedback Category:</label>
+                <select id="category" name="category" required>
+                    <option value="technical_issue">Technical Issue</option>
+                    <option value="general_feedback">General Feedback</option>
+                    <option value="suggestion_for_improvement">Suggestion for Improvement</option>
+                </select>
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" rows="5" placeholder="Enter description" required></textarea>
+                <button type="submit">Submit Request</button>
+            </form>
+        </section>
+
+        <section id="feedback-analysis" class="section analysis">
+            <h2>Feedback Analysis</h2>
+            <form>
+                <label for="status">Status:</label>
+                <select id="status" name="status" required>
+                    <option value="pending">Pending</option>
+                    <option value="resolved">Resolved</option>
+                    <option value="in_progress">In Progress</option>
+                </select>
+                <label for="analysis">Analysis:</label>
+                <textarea id="analysis" name="analysis" rows="5" placeholder="Enter your analysis" required></textarea>
+                <button type="submit">Submit Analysis</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Iquirium</p>
+    </footer>
+
+    <script>
+        // URL da API
+        const apiUrlRequest = "http://127.0.0.1:8000/feedback/platform-feedback/";
+        const apiUrlAnalysis = "http://127.0.0.1:8000/feedback/feedback-analysis/";
+
+        // Função para buscar e exibir os dados de feedback
+        async function fetchFeedback() {
+            try {
+                const responseRequest = await fetch(apiUrlRequest, {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': 'Token 6e801d5dd4146287b7e9019602525c9ff70f0ba0',
+                        'Content-Type': 'application/json'
+                    }
+                });
+                const feedbackRequest = await responseRequest.json();
+
+                const tableBodyRequest = document.querySelector("#feedback-request tbody");
+
+                feedbackRequest.forEach(feedback => {
+                    const row = document.createElement("tr");
+                    row.innerHTML = `
+                        <td>${feedback.user}</td>
+                        <td>${feedback.tipo_feedback}</td>
+                        <td>${feedback.descricao_feedback}</td>
+                        <td>${new Date(feedback.data).toLocaleDateString()}</td>
+                        <td>${feedback.hora}</td>
+                    `;
+                    tableBodyRequest.appendChild(row);
+                });
+
+                const responseAnalysis = await fetch(apiUrlAnalysis, {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': 'Token 6e801d5dd4146287b7e9019602525c9ff70f0ba0',
+                        'Content-Type': 'application/json'
+                    }
+                });
+                const feedbackAnalysis = await responseAnalysis.json();
+
+                const tableBodyAnalysis = document.querySelector("#feedback-analysis tbody");
+
+                feedbackAnalysis.forEach(feedback => {
+                    const row = document.createElement("tr");
+                    row.innerHTML = `
+                        <td>${feedback.status}</td>
+                        <td>${feedback.analysis}</td>
+                    `;
+                    tableBodyAnalysis.appendChild(row);
+                });
+            } catch (error) {
+                console.error("Erro ao buscar os feedbacks:", error);
+            }
+        }
+
+        // Chama a função ao carregar a página
+        window.onload = fetchFeedback;
+    </script>
+</body>
+</html>

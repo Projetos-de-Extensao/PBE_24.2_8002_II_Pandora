@@ -20,7 +20,7 @@ class Migration(migrations.Migration):
                 ('submission_date', models.DateTimeField(auto_now_add=True)),
                 ('submission_time', models.TimeField(default=django.utils.timezone.now)),
                 ('description', models.TextField()),
-                ('reporter', models.CharField(max_length=100)),
+                ('requester', models.CharField(max_length=100)),
             ],
         ),
     ]

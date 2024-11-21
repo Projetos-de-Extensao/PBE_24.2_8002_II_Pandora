@@ -15,7 +15,7 @@ class PlatformFeedback(models.Model):
     requester = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
 
     def __str__(self):
-        return f'{self.requester.get_full_name()} {self.category}'
+        return f'{self.requester.get_full_name()} ({self.category})'
 
 
 class FeedbackAnalysis(models.Model):
@@ -41,4 +41,3 @@ class FeedbackAnalysis(models.Model):
         feedback_type = self.feedback.category
         requester_name = self.feedback.requester.get_full_name()
         return f'{analyst_name} / {feedback_type} / {requester_name}'
-

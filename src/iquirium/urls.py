@@ -8,8 +8,12 @@ urlpatterns = [
     path('feedback/', include('feedback.urls')),
     path('SWOT/', include('SWOT.urls')),
     path('auth/', obtain_auth_token, name='api_token_authentication'),
+
    
 ]
+
+
+
 
 
 
